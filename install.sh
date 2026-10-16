@@ -2,7 +2,7 @@
 # Installs these skills into ~/.claude/skills (personal skills for every Claude Code session).
 # Used by the claude.ai/code cloud environment setup script, and safe to run on any machine:
 #   curl -fsSL https://raw.githubusercontent.com/muhammadumairmustafa-del/claude-skills/main/install.sh | bash
-# Existing skill folders are replaced; history files (data/history.json*) are kept.
+# Updates files in place; never deletes local-only files (history logs, venvs).
 set -euo pipefail
 
 REPO="https://github.com/muhammadumairmustafa-del/claude-skills"
@@ -20,13 +20,10 @@ fi
 mkdir -p "$DEST"
 for skill in "$TMP"/repo/.claude/skills/*/; do
   name="$(basename "$skill")"
-  keep=""
-  for h in "$DEST/$name/data/history.json" "$DEST/$name/data/history.jsonl"; do
-    [ -f "$h" ] && keep="$keep $h" && cp "$h" "$TMP/$(basename "$h").$name"
-  done
-  rm -rf "${DEST:?}/$name"
-  cp -R "$skill" "$DEST/$name"
-  for h in $keep; do cp "$TMP/$(basename "$h").$name" "$h"; done
+  # Copy over the existing folder instead of replacing it: files that only exist locally
+  # (history logs, the fonts .venv, anything else) are never deleted.
+  mkdir -p "$DEST/$name"
+  cp -R "$skill". "$DEST/$name/"
   echo "installed skill: $name"
 done
 
