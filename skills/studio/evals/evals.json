@@ -1,0 +1,8 @@
+{
+  "skill_name": "studio",
+  "evals": [
+    {"id": 1, "prompt": "build me a landing page for 'Nakhla Box' — a monthly subscription of premium Saudi dates (Ajwa, Sukkari, Medjool) delivered across KSA. single html file, english with an arabic toggle would be nice", "expected_output": "Distinct, non-templated landing page with RTL Arabic toggle, real copy, all states, verified screenshots", "files": []},
+    {"id": 2, "prompt": "I'm making a habit tracker app in React Native. Design the home screen (today's habits, streaks, add habit) as an HTML mockup at iPhone size so I can see it before coding. Include the empty state for new users too.", "expected_output": "Mobile home + empty state mockup, native conventions, touch targets, distinct direction", "files": []},
+    {"id": 3, "prompt": "make a landing page for Pulseboard, an API uptime + latency monitoring tool for small dev teams. one html file.", "expected_output": "Developer-tool landing page that avoids the dark+acid-green / SaaS card-kit defaults", "files": []}
+  ]
+}

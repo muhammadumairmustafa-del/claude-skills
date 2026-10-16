@@ -1,0 +1,158 @@
+{
+  "_about": "Independent design axes. A 'direction' picks one option per axis. Tags drive soft affinity with the product brief; platforms restrict where an option makes sense; conflicts list option ids that can't co-exist. Edit freely: add options, retire ones you're tired of.",
+  "keywords": {
+    "trust":     ["bank", "finance", "fintech", "invest", "insurance", "legal", "law", "payment", "pay", "wallet", "telecom", "enterprise", "b2b", "gov"],
+    "data":      ["dashboard", "analytics", "admin", "crm", "metrics", "tracker", "report", "monitor", "pipeline", "portal", "trading"],
+    "playful":   ["kids", "children", "game", "gaming", "fun", "social", "party", "pet", "quiz", "meme", "toy"],
+    "premium":   ["luxury", "fashion", "jewel", "jewellery", "watch", "hotel", "perfume", "boutique", "real estate", "villa", "art"],
+    "calm":      ["health", "wellness", "meditation", "sleep", "therapy", "mental", "yoga", "care", "clinic", "journal"],
+    "technical": ["developer", "dev", "api", "sdk", "cli", "ai", "ml", "infra", "devtools", "code", "agent"],
+    "warm":      ["food", "restaurant", "recipe", "cafe", "bakery", "family", "community", "home", "travel", "local"],
+    "editorial": ["blog", "magazine", "news", "publication", "writing", "newsletter", "portfolio", "agency", "studio", "story"],
+    "mystic":    ["astrology", "tarot", "horoscope", "spiritual", "dream", "zodiac", "faith", "islamic", "quran"],
+    "bold":      ["launch", "startup", "music", "event", "festival", "sport", "fitness", "creator", "brand", "campaign"],
+    "commerce":  ["shop", "store", "ecommerce", "e-commerce", "marketplace", "esim", "checkout", "product", "booking", "subscription"]
+  },
+  "axes": [
+    {
+      "id": "layout", "label": "Layout archetype",
+      "options": [
+        {"id": "L1",  "name": "Editorial asymmetric grid", "desc": "12-col grid used off-centre: wide text column + narrow margin notes, images breaking the grid.", "tags": ["editorial", "premium"], "platforms": ["web"]},
+        {"id": "L2",  "name": "Bento mosaic", "desc": "Tiles of deliberately unequal size; the biggest tile is the hero idea. Tile sizes follow importance, not symmetry.", "tags": ["technical", "commerce", "data"], "platforms": ["web", "mobile"]},
+        {"id": "L3",  "name": "Single-column narrative scroll", "desc": "One reading column, chapters revealed in order; the page reads like a story.", "tags": ["calm", "editorial", "mystic"], "platforms": ["web", "mobile"]},
+        {"id": "L4",  "name": "Sticky split-screen", "desc": "One half pinned (visual/product), the other half scrolls through content that changes the pinned side.", "tags": ["technical", "premium", "commerce"], "platforms": ["web"]},
+        {"id": "L5",  "name": "Full-bleed media-led", "desc": "Edge-to-edge imagery/video carries the page; text sits in disciplined overlays or between frames.", "tags": ["premium", "bold", "warm"], "platforms": ["web", "mobile"]},
+        {"id": "L6",  "name": "Index / catalogue list", "desc": "Dense typographic list rows (name, meta, preview on hover/tap) instead of cards.", "tags": ["editorial", "technical", "commerce"], "platforms": ["web", "mobile"]},
+        {"id": "L7",  "name": "Cockpit dashboard", "desc": "Persistent nav rail + workspace; panels sized by task frequency; filters always in reach.", "tags": ["data", "trust", "technical"], "platforms": ["web"], "conflicts": ["D1"]},
+        {"id": "L8",  "name": "Spatial canvas", "desc": "Content placed on a pannable/zoomable plane or map-like surface instead of a page.", "tags": ["playful", "technical", "mystic"], "platforms": ["web", "mobile"]},
+        {"id": "L9",  "name": "Card deck / swipe stack", "desc": "One focused card at a time, swiped or stepped through; progress is physical.", "tags": ["playful", "calm", "commerce"], "platforms": ["mobile", "web"]},
+        {"id": "L10", "name": "Swiss modular grid", "desc": "Strict modular grid, flush-left ragged-right type, alignment does all the work.", "tags": ["trust", "technical", "editorial"], "platforms": ["web", "mobile"]},
+        {"id": "L11", "name": "Conversation-first", "desc": "The primary surface is a dialogue/prompt; everything else is summoned from it.", "tags": ["technical", "calm", "mystic"], "platforms": ["web", "mobile"]},
+        {"id": "L12", "name": "Timeline / journey spine", "desc": "A vertical or horizontal spine organises content by time or steps; position = meaning.", "tags": ["warm", "mystic", "editorial"], "platforms": ["web", "mobile"]},
+        {"id": "L13", "name": "Tab-bar hub with hero feed", "desc": "Native mobile structure: 3–5 tabs, a home feed led by one large contextual card.", "tags": ["commerce", "warm", "playful", "calm"], "platforms": ["mobile"]},
+        {"id": "L14", "name": "Poster stack", "desc": "Each section is a full-viewport poster with its own composition; scroll flips posters.", "tags": ["bold", "playful", "editorial"], "platforms": ["web", "mobile"]}
+      ]
+    },
+    {
+      "id": "type", "label": "Type voice",
+      "options": [
+        {"id": "T1",  "name": "Characterful grotesk", "fonts": ["Bricolage Grotesque", "Schibsted Grotesk", "Familjen Grotesk"], "desc": "Sans with quirks in the details; confident without shouting.", "tags": ["bold", "technical", "commerce"]},
+        {"id": "T2",  "name": "High-contrast display serif + quiet sans", "fonts": ["Gloock", "Bodoni Moda", "DM Serif Display", "Instrument Serif"], "body": ["Instrument Sans", "Albert Sans"], "desc": "Big fashion-y serif headlines over a neutral sans body.", "tags": ["premium", "editorial"]},
+        {"id": "T3",  "name": "Bookish text serif throughout", "fonts": ["Newsreader", "Literata", "Source Serif 4", "Spectral"], "desc": "One serif family for everything; reads like a well-set book.", "tags": ["editorial", "calm", "mystic"]},
+        {"id": "T4",  "name": "Soft variable serif", "fonts": ["Fraunces", "Young Serif"], "body": ["Figtree", "Onest"], "desc": "Warm, wonky, high-personality serif display; friendly sans body.", "tags": ["warm", "playful", "calm"]},
+        {"id": "T5",  "name": "Slab sturdy", "fonts": ["Zilla Slab", "Bitter", "Arvo"], "body": ["Public Sans"], "desc": "Slab serifs: dependable, typewriter-adjacent, honest.", "tags": ["trust", "warm", "editorial"]},
+        {"id": "T6",  "name": "Condensed poster", "fonts": ["Big Shoulders", "Barlow Condensed", "Bebas Neue", "Anton"], "body": ["Barlow", "Archivo"], "desc": "Tall condensed caps used huge; body stays plain.", "tags": ["bold", "playful"]},
+        {"id": "T7",  "name": "Wide / extended", "fonts": ["Unbounded", "Syne", "Dela Gothic One"], "body": ["Manrope", "Epilogue"], "desc": "Wide letterforms that take up space; futurist or streetwear energy.", "tags": ["bold", "technical", "playful"]},
+        {"id": "T8",  "name": "Rounded friendly", "fonts": ["Fredoka", "Nunito", "Baloo 2", "Lexend"], "desc": "Rounded terminals, generous x-height; approachable and legible.", "tags": ["playful", "calm", "warm"]},
+        {"id": "T9",  "name": "Mono-led technical", "fonts": ["JetBrains Mono", "Martian Mono", "IBM Plex Mono"], "body": ["IBM Plex Sans", "Geist"], "desc": "Monospace carries headings and data; sans for long text.", "tags": ["technical", "data"]},
+        {"id": "T10", "name": "Neutral precision sans", "fonts": ["Geist", "Inter Tight", "Hanken Grotesk", "Mona Sans"], "desc": "Quiet, tight, information-first; personality comes from layout and colour.", "tags": ["data", "trust", "technical"]},
+        {"id": "T11", "name": "Geometric clean", "fonts": ["Outfit", "Sora", "Plus Jakarta Sans", "Red Hat Display"], "desc": "Circles-and-lines geometry; modern, open, optimistic.", "tags": ["commerce", "trust", "calm"]},
+        {"id": "T12", "name": "Classical old-style", "fonts": ["EB Garamond", "Cormorant Garamond", "Crimson Pro", "Libre Caslon Text"], "desc": "Old-style serifs, small caps, ornaments used sparingly.", "tags": ["premium", "mystic", "editorial"]},
+        {"id": "T13", "name": "Retro-digital", "fonts": ["Pixelify Sans", "Silkscreen", "VT323", "Space Mono"], "body": ["Rubik"], "desc": "Pixel/terminal display faces as accent, readable sans body.", "tags": ["playful", "technical"]},
+        {"id": "T14", "name": "Hand-made accent", "fonts": ["Caveat", "Gochi Hand", "Shrikhand"], "body": ["Albert Sans", "Figtree"], "desc": "A handwritten/brush accent face for small human moments, clean body.", "tags": ["warm", "playful"]}
+      ]
+    },
+    {
+      "id": "color", "label": "Colour strategy",
+      "options": [
+        {"id": "C1",  "name": "Neutral + one loud accent", "wada": ["contrast"], "desc": "90% neutral, one saturated colour reserved for action and the signature moment.", "tags": ["trust", "technical", "data"]},
+        {"id": "C2",  "name": "Duotone", "wada": ["contrast"], "size": 2, "desc": "Two colours only (plus tints); every element is one or the other.", "tags": ["bold", "editorial"]},
+        {"id": "C3",  "name": "Tonal single hue", "wada": ["soft"], "desc": "Many tints/shades of one hue; hierarchy by lightness, not by hue.", "tags": ["calm", "premium"]},
+        {"id": "C4",  "name": "High-chroma pop", "wada": ["vivid"], "size": 4, "desc": "Several saturated colours assigned to sections or categories.", "tags": ["playful", "bold"]},
+        {"id": "C5",  "name": "Muted earth", "wada": ["earthy", "muted"], "desc": "Clay, olive, ochre, stone; grounded and tactile.", "tags": ["warm", "calm", "premium"]},
+        {"id": "C6",  "name": "Pastel field", "wada": ["pastel", "light"], "desc": "Soft pastel surfaces with one deep colour for text and actions.", "tags": ["playful", "calm", "warm"]},
+        {"id": "C7",  "name": "Deep dark luminous", "wada": ["dark", "vivid"], "desc": "Dark (not black) base with luminous accents that glow.", "tags": ["technical", "mystic", "bold"]},
+        {"id": "C8",  "name": "Colour-block sections", "wada": ["vivid", "contrast"], "size": 3, "desc": "Whole sections flooded with solid colour; transitions between blocks are the rhythm.", "tags": ["bold", "commerce", "playful"]},
+        {"id": "C9",  "name": "Cool clinical", "wada": ["cool", "light"], "desc": "Cool whites, steel blues, mint; crisp and trustworthy.", "tags": ["trust", "calm", "data"]},
+        {"id": "C10", "name": "Jewel tones", "wada": ["dark", "contrast"], "desc": "Emerald, sapphire, garnet, gold on deep grounds; rich and ceremonial.", "tags": ["premium", "mystic"]}
+      ]
+    },
+    {
+      "id": "shape", "label": "Shape language",
+      "options": [
+        {"id": "S1", "name": "Sharp", "desc": "0–2px radius; crisp rectangles; lines and alignment do the styling.", "tags": ["editorial", "technical", "trust"]},
+        {"id": "S2", "name": "Soft hierarchical", "desc": "Radius scales with size (chips 6, cards 16, sheets 28); nested radii stay concentric.", "tags": ["commerce", "calm", "trust"]},
+        {"id": "S3", "name": "Pill & capsule", "desc": "Fully rounded controls and tags, rounded-rect containers.", "tags": ["playful", "commerce", "calm"]},
+        {"id": "S4", "name": "Organic blob", "desc": "Irregular, hand-drawn or blobby shapes for containers and masks.", "tags": ["playful", "warm", "mystic"]},
+        {"id": "S5", "name": "Notched / cut-corner", "desc": "Chamfered corners, tabs and notches; industrial or ticket-like.", "tags": ["technical", "bold"]},
+        {"id": "S6", "name": "Arches & circles", "desc": "Arch-topped images, circular frames, curved section edges.", "tags": ["premium", "mystic", "warm"]},
+        {"id": "S7", "name": "Outline / line-art", "desc": "Hairline-outlined containers, no fills; drawings over surfaces.", "tags": ["editorial", "calm", "technical"]}
+      ]
+    },
+    {
+      "id": "depth", "label": "Depth & surface",
+      "options": [
+        {"id": "E1", "name": "Flat colour", "desc": "No shadows; separation from colour and space only.", "tags": ["bold", "editorial", "playful"]},
+        {"id": "E2", "name": "Elevation scale", "desc": "3–4 defined shadow levels tied to meaning (resting, raised, overlay, modal).", "tags": ["trust", "data", "commerce"]},
+        {"id": "E3", "name": "Translucent layers", "desc": "Frosted/blurred surfaces over rich backgrounds; used only where context behind matters.", "tags": ["technical", "premium", "mystic"]},
+        {"id": "E4", "name": "Borders & rules", "desc": "1px rules and hairlines define structure; surfaces stay flat.", "tags": ["editorial", "data", "technical"]},
+        {"id": "E5", "name": "Tactile texture", "desc": "Paper grain, noise, risograph or fabric texture on surfaces.", "tags": ["warm", "editorial", "mystic"]},
+        {"id": "E6", "name": "Dimensional 3D", "desc": "Rendered 3D objects, isometric scenes or depth parallax as the hero material.", "tags": ["playful", "bold", "commerce"]},
+        {"id": "E7", "name": "Hard offset shadow", "desc": "Solid, unblurred offset shadows and thick outlines (neo-brutal, sticker-like).", "tags": ["playful", "bold"]}
+      ]
+    },
+    {
+      "id": "motion", "label": "Motion personality",
+      "options": [
+        {"id": "M1", "name": "Still & quiet", "desc": "Almost no motion; instant, crisp state changes; only feedback animates.", "tags": ["trust", "editorial", "data"]},
+        {"id": "M2", "name": "Snappy functional", "desc": "120–200ms ease-out transitions that explain state changes; nothing decorative.", "tags": ["data", "technical", "commerce"]},
+        {"id": "M3", "name": "Springy playful", "desc": "Spring physics, overshoot, squash on press; delight on primary actions.", "tags": ["playful", "warm"]},
+        {"id": "M4", "name": "Cinematic scroll", "desc": "Scroll-scrubbed sequences, pinned scenes, one orchestrated story.", "tags": ["premium", "bold", "editorial"]},
+        {"id": "M5", "name": "Ambient drift", "desc": "Slow background motion (gradients, particles, shader) that never competes with content.", "tags": ["calm", "mystic", "technical"]},
+        {"id": "M6", "name": "Kinetic type", "desc": "Type itself moves: reveals, rolling numbers, variable-axis morphs.", "tags": ["bold", "editorial", "playful"]}
+      ]
+    },
+    {
+      "id": "density", "label": "Density",
+      "options": [
+        {"id": "D1", "name": "Airy", "desc": "Generous whitespace, few elements per view, large type.", "tags": ["premium", "calm", "mystic"]},
+        {"id": "D2", "name": "Balanced", "desc": "Comfortable reading density; standard 8pt rhythm.", "tags": ["commerce", "warm", "trust", "editorial", "playful"]},
+        {"id": "D3", "name": "Dense pro", "desc": "Compact rows, smaller type, power-user layouts, keyboard-first.", "tags": ["data", "technical"]}
+      ]
+    },
+    {
+      "id": "imagery", "label": "Imagery",
+      "options": [
+        {"id": "I1", "name": "Real photography", "desc": "Art-directed photos of real people/places/products; consistent grade.", "tags": ["warm", "premium", "commerce"]},
+        {"id": "I2", "name": "Flat / vector illustration", "desc": "Custom illustration in the palette; one consistent style.", "tags": ["playful", "warm", "calm"]},
+        {"id": "I3", "name": "Abstract generative", "desc": "Code-drawn patterns, gradients, shaders or noise fields.", "tags": ["technical", "mystic", "bold"]},
+        {"id": "I4", "name": "Product UI as hero", "desc": "The interface itself, cropped and staged, is the imagery.", "tags": ["technical", "data", "commerce"]},
+        {"id": "I5", "name": "Typography only", "desc": "No pictures; type, colour and layout carry everything.", "tags": ["editorial", "bold", "trust"]},
+        {"id": "I6", "name": "Data as image", "desc": "Charts, maps or diagrams used as the main visual material.", "tags": ["data", "trust", "technical"]},
+        {"id": "I7", "name": "Collage / cut-out", "desc": "Cut-out photos, torn paper, mixed media layered with type.", "tags": ["bold", "playful", "editorial"]},
+        {"id": "I8", "name": "Line-drawn symbols", "desc": "Fine line drawings, diagrams, glyphs or constellations.", "tags": ["mystic", "calm", "editorial"]}
+      ]
+    },
+    {
+      "id": "signature", "label": "Signature moment (the one bold thing)",
+      "options": [
+        {"id": "G1",  "name": "Oversized type hero", "desc": "Headline set at a size that becomes the image.", "tags": ["bold", "editorial"]},
+        {"id": "G2",  "name": "Live demo in the hero", "desc": "The real product works right there: type, tap, see the result.", "tags": ["technical", "commerce", "data"]},
+        {"id": "G3",  "name": "Scroll-scrubbed film", "desc": "One pinned sequence that plays as the user scrolls.", "tags": ["premium", "bold"]},
+        {"id": "G4",  "name": "Data centrepiece", "desc": "One beautiful, true chart or map that tells the core story.", "tags": ["data", "trust"]},
+        {"id": "G5",  "name": "Colour-flood transition", "desc": "Background colour changes as sections enter; the page changes mood.", "tags": ["bold", "playful", "commerce"]},
+        {"id": "G6",  "name": "Stacking sticky cards", "desc": "Cards pin and stack as you scroll, building a pile of ideas.", "tags": ["commerce", "technical"]},
+        {"id": "G7",  "name": "Horizontal scroll gallery", "desc": "One section scrolls sideways, like a film strip.", "tags": ["premium", "editorial", "warm"]},
+        {"id": "G8",  "name": "Generative background", "desc": "A living shader/particle field reacting to cursor or time.", "tags": ["technical", "mystic"]},
+        {"id": "G9",  "name": "Character / mascot", "desc": "An illustrated character who guides and reacts.", "tags": ["playful", "warm"]},
+        {"id": "G10", "name": "Before / after reveal", "desc": "A slider or toggle that shows the transformation the product makes.", "tags": ["commerce", "trust"]},
+        {"id": "G11", "name": "Delightful primary action", "desc": "The main button/gesture has a crafted, memorable micro-interaction.", "tags": ["playful", "commerce", "calm"]},
+        {"id": "G12", "name": "Interactive globe / map", "desc": "A map or globe the user can spin to explore.", "tags": ["warm", "technical", "commerce"]},
+        {"id": "G13", "name": "Personalised reveal", "desc": "The UI asks one thing and rebuilds itself around the answer.", "tags": ["mystic", "calm", "warm"]},
+        {"id": "G14", "name": "Marquee / ticker", "desc": "A moving band of words, logos or live numbers.", "tags": ["bold", "data"]},
+        {"id": "G15", "name": "Cursor / touch spotlight", "desc": "Pointer or finger reveals hidden layers, light or detail.", "tags": ["premium", "mystic", "playful"]}
+      ]
+    },
+    {
+      "id": "voice", "label": "Copy voice",
+      "options": [
+        {"id": "V1", "name": "Plain & confident", "desc": "Short declaratives, no adjectives doing the selling.", "tags": ["trust", "technical", "data"]},
+        {"id": "V2", "name": "Warm & human", "desc": "Second person, kind, conversational, small encouragements.", "tags": ["warm", "calm"]},
+        {"id": "V3", "name": "Witty", "desc": "Dry humour in empty states and microcopy; never in errors.", "tags": ["playful", "bold"]},
+        {"id": "V4", "name": "Understated premium", "desc": "Few words, lots of space, no exclamation marks.", "tags": ["premium", "editorial"]},
+        {"id": "V5", "name": "Precise technical", "desc": "Exact nouns, numbers and units; tells you what will happen.", "tags": ["technical", "data"]},
+        {"id": "V6", "name": "Poetic", "desc": "Evocative, rhythmic, image-rich — for headlines only; UI copy stays plain.", "tags": ["mystic", "editorial", "calm"]}
+      ]
+    }
+  ]
+}

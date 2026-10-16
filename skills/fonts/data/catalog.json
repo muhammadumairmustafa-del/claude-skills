@@ -1,0 +1,6872 @@
+{
+ "source": "fontsource + curated.json",
+ "fonts": [
+  {
+   "id": "inter",
+   "family": "Inter",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-10",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "neutral",
+    "modern",
+    "techy",
+    "minimal",
+    "corporate"
+   ],
+   "note": "The default modern UI sans. Huge character set, opsz axis, tabular figures. Safe choice for any product UI.",
+   "repo": "rsms/inter",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "opsz": {
+     "default": "14",
+     "min": "14",
+     "max": "32",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 2048,
+    "asc": 1984,
+    "desc": -494,
+    "gap": 0,
+    "xavg": 983.97,
+    "cap": 1490,
+    "xh": 1118
+   }
+  },
+  {
+   "id": "inter-tight",
+   "family": "Inter Tight",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "display"
+   ],
+   "moods": [
+    "neutral",
+    "modern",
+    "techy",
+    "bold"
+   ],
+   "note": "Tighter-spaced Inter for big headlines; pairs with Inter body.",
+   "repo": "rsms/inter",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 2048,
+    "asc": 1984,
+    "desc": -494,
+    "gap": 0,
+    "xavg": 887.69,
+    "cap": 1490,
+    "xh": 1118
+   }
+  },
+  {
+   "id": "geist",
+   "family": "Geist",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2026-05-13",
+   "roles": [
+    "ui",
+    "text",
+    "display"
+   ],
+   "moods": [
+    "techy",
+    "modern",
+    "minimal",
+    "neutral"
+   ],
+   "note": "Vercel's sans. Crisp Swiss-ish feel, the 'developer product' look.",
+   "repo": "vercel/geist-font",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1005,
+    "desc": -295,
+    "gap": 0,
+    "xavg": 473.21,
+    "cap": 710,
+    "xh": 530
+   }
+  },
+  {
+   "id": "geist-mono",
+   "family": "Geist Mono",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "symbols2",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "monospace",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2026-06-08",
+   "roles": [
+    "mono"
+   ],
+   "moods": [
+    "techy",
+    "modern",
+    "minimal"
+   ],
+   "note": "Matching mono for Geist; great for code, stats and labels.",
+   "repo": "vercel/geist-font",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1005,
+    "desc": -295,
+    "gap": 0,
+    "xavg": 600.0,
+    "cap": 710,
+    "xh": 530
+   }
+  },
+  {
+   "id": "mona-sans",
+   "family": "Mona Sans",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "display",
+    "ui"
+   ],
+   "moods": [
+    "techy",
+    "expressive",
+    "modern",
+    "bold"
+   ],
+   "note": "GitHub's variable sans with width axis; strong expressive headlines.",
+   "repo": "github/mona-sans",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wdth": {
+     "default": "100",
+     "min": "75",
+     "max": "125",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1090,
+    "desc": -320,
+    "gap": 0,
+    "xavg": 468.52,
+    "cap": 729,
+    "xh": 525
+   }
+  },
+  {
+   "id": "hubot-sans",
+   "family": "Hubot Sans",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "display"
+   ],
+   "moods": [
+    "techy",
+    "expressive",
+    "geometric",
+    "bold"
+   ],
+   "note": "Mona Sans' geometric sibling; robotic, wide headline voice.",
+   "repo": "github/hubot-sans",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wdth": {
+     "default": "100",
+     "min": "75",
+     "max": "125",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1090,
+    "desc": -320,
+    "gap": 0,
+    "xavg": 457.22,
+    "cap": 729,
+    "xh": 525
+   }
+  },
+  {
+   "id": "ibm-plex-sans",
+   "family": "IBM Plex Sans",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-08",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "corporate",
+    "techy",
+    "trustworthy",
+    "humanist"
+   ],
+   "note": "IBM's corporate workhorse. Full superfamily incl. Arabic, so ideal for bilingual enterprise work.",
+   "repo": "IBM/plex",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wdth": {
+     "default": "100",
+     "min": "75",
+     "max": "100",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "700",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1025,
+    "desc": -275,
+    "gap": 0,
+    "xavg": 454.06,
+    "cap": 698,
+    "xh": 516
+   }
+  },
+  {
+   "id": "ibm-plex-serif",
+   "family": "IBM Plex Serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "text",
+    "editorial"
+   ],
+   "moods": [
+    "corporate",
+    "editorial",
+    "classic"
+   ],
+   "note": "Serif companion in the Plex family.",
+   "repo": "IBM/plex",
+   "metrics": {
+    "upm": 1000,
+    "asc": 1025,
+    "desc": -275,
+    "gap": 0,
+    "xavg": 476.12,
+    "cap": 698,
+    "xh": 516
+   }
+  },
+  {
+   "id": "ibm-plex-mono",
+   "family": "IBM Plex Mono",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "monospace",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "mono"
+   ],
+   "moods": [
+    "corporate",
+    "techy",
+    "retro"
+   ],
+   "note": "Plex mono; friendly typewriter flavour.",
+   "repo": "IBM/plex",
+   "metrics": {
+    "upm": 1000,
+    "asc": 1025,
+    "desc": -275,
+    "gap": 0,
+    "xavg": 600.0,
+    "cap": 698,
+    "xh": 516
+   }
+  },
+  {
+   "id": "ibm-plex-sans-arabic",
+   "family": "IBM Plex Sans Arabic",
+   "subsets": [
+    "arabic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2026-03-03",
+   "roles": [
+    "arabic",
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "corporate",
+    "modern",
+    "trustworthy"
+   ],
+   "note": "Arabic designed to match Plex Sans Latin exactly. Best pick for bilingual enterprise/telecom UIs.",
+   "repo": "IBM/plex",
+   "urdu_ok": true,
+   "metrics": {
+    "upm": 1000,
+    "asc": 1085,
+    "desc": -415,
+    "gap": 0,
+    "xavg": 454.06,
+    "cap": 698,
+    "xh": 516
+   }
+  },
+  {
+   "id": "ibm-plex-sans-condensed",
+   "family": "IBM Plex Sans Condensed",
+   "subsets": [
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "ui",
+    "display"
+   ],
+   "moods": [
+    "corporate",
+    "condensed",
+    "techy"
+   ],
+   "note": "Condensed Plex for dense tables, dashboards and tight headings.",
+   "repo": "IBM/plex",
+   "metrics": {
+    "upm": 1000,
+    "asc": 1025,
+    "desc": -275,
+    "gap": 0,
+    "xavg": 410.11,
+    "cap": 698,
+    "xh": 516
+   }
+  },
+  {
+   "id": "public-sans",
+   "family": "Public Sans",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "neutral",
+    "trustworthy",
+    "accessible",
+    "corporate"
+   ],
+   "note": "US government's neutral sans. Calm, legible, very trustworthy for fintech/gov.",
+   "repo": "uswds/public-sans",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 2000,
+    "asc": 1900,
+    "desc": -450,
+    "gap": 0,
+    "xavg": 944.14,
+    "cap": 1446,
+    "xh": 1034
+   }
+  },
+  {
+   "id": "source-sans-3",
+   "family": "Source Sans 3",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2026-10-01",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "humanist",
+    "neutral",
+    "friendly"
+   ],
+   "note": "Adobe's humanist workhorse; easy long reading.",
+   "repo": "adobe-fonts/source-sans",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1024,
+    "desc": -400,
+    "gap": 0,
+    "xavg": 423.44,
+    "cap": 660,
+    "xh": 486
+   }
+  },
+  {
+   "id": "source-serif-4",
+   "family": "Source Serif 4",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2026-10-01",
+   "roles": [
+    "text",
+    "editorial"
+   ],
+   "moods": [
+    "editorial",
+    "classic",
+    "warm"
+   ],
+   "note": "Adobe's transitional serif with optical sizes; excellent body serif.",
+   "repo": "adobe-fonts/source-serif",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "opsz": {
+     "default": "14",
+     "min": "8",
+     "max": "60",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1036,
+    "desc": -335,
+    "gap": 0,
+    "xavg": 484.2,
+    "cap": 670,
+    "xh": 475
+   }
+  },
+  {
+   "id": "source-code-pro",
+   "family": "Source Code Pro",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "monospace",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2026-10-01",
+   "roles": [
+    "mono"
+   ],
+   "moods": [
+    "neutral",
+    "techy",
+    "classic"
+   ],
+   "note": "Adobe's clean coding mono.",
+   "repo": "adobe-fonts/source-code-pro",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 984,
+    "desc": -273,
+    "gap": 0,
+    "xavg": 600.0,
+    "cap": 660,
+    "xh": 486
+   }
+  },
+  {
+   "id": "recursive",
+   "family": "Recursive",
+   "subsets": [
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "ui",
+    "display",
+    "mono"
+   ],
+   "moods": [
+    "playful",
+    "techy",
+    "expressive"
+   ],
+   "note": "Variable sans<->mono with a 'casual' axis. Fun for dev tools and playful brands.",
+   "repo": "arrowtype/recursive",
+   "axes": {
+    "slnt": {
+     "default": "0",
+     "min": "-15",
+     "max": "0",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "300",
+     "max": "1000",
+     "step": "1"
+    },
+    "CASL": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "0.01"
+    },
+    "CRSV": {
+     "default": "0.5",
+     "min": "0",
+     "max": "1",
+     "step": "0.1"
+    },
+    "MONO": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "0.01"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 950,
+    "desc": -250,
+    "gap": 0,
+    "xavg": 515.71,
+    "cap": 700,
+    "xh": 532
+   }
+  },
+  {
+   "id": "space-grotesk",
+   "family": "Space Grotesk",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "display",
+    "ui"
+   ],
+   "moods": [
+    "techy",
+    "expressive",
+    "grotesque",
+    "modern"
+   ],
+   "note": "Quirky geometric grotesk; startup/web3/agency energy.",
+   "repo": "floriankarsten/space-grotesk",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "300",
+     "max": "700",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 984,
+    "desc": -292,
+    "gap": 0,
+    "xavg": 497.68,
+    "cap": 700,
+    "xh": 486
+   }
+  },
+  {
+   "id": "space-mono",
+   "family": "Space Mono",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "monospace",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-06-25",
+   "roles": [
+    "mono",
+    "display"
+   ],
+   "moods": [
+    "retro",
+    "techy",
+    "expressive"
+   ],
+   "note": "Retro-futurist mono; good for accents and labels, not long code.",
+   "repo": "googlefonts/spacemono",
+   "metrics": {
+    "upm": 1000,
+    "asc": 1120,
+    "desc": -361,
+    "gap": 0,
+    "xavg": 612.0,
+    "cap": 700,
+    "xh": 496
+   }
+  },
+  {
+   "id": "work-sans",
+   "family": "Work Sans",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "ui",
+    "display"
+   ],
+   "moods": [
+    "grotesque",
+    "friendly",
+    "modern"
+   ],
+   "note": "Grotesque optimised for screen at mid sizes; versatile.",
+   "repo": "weiweihuanghuang/Work-Sans",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 930,
+    "desc": -243,
+    "gap": 0,
+    "xavg": 505.76,
+    "cap": 660,
+    "xh": 500
+   }
+  },
+  {
+   "id": "fraunces",
+   "family": "Fraunces",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-10",
+   "roles": [
+    "display",
+    "editorial"
+   ],
+   "moods": [
+    "expressive",
+    "warm",
+    "luxury",
+    "editorial",
+    "retro"
+   ],
+   "note": "Soft 'Old Style' display serif with WONK and SOFT axes. Instant character for food, lifestyle, editorial.",
+   "repo": "undercasetype/Fraunces",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "opsz": {
+     "default": "14",
+     "min": "9",
+     "max": "144",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    },
+    "SOFT": {
+     "default": "0",
+     "min": "0",
+     "max": "100",
+     "step": "0.1"
+    },
+    "WONK": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 2000,
+    "asc": 1956,
+    "desc": -510,
+    "gap": 0,
+    "xavg": 944.85,
+    "cap": 1400,
+    "xh": 964
+   }
+  },
+  {
+   "id": "jost",
+   "family": "Jost",
+   "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-10",
+   "roles": [
+    "ui",
+    "display"
+   ],
+   "moods": [
+    "geometric",
+    "elegant",
+    "minimal",
+    "classic"
+   ],
+   "note": "Futura-inspired geometric; fashion and premium minimal brands.",
+   "repo": "indestructible-type/Jost",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1070,
+    "desc": -375,
+    "gap": 0,
+    "xavg": 427.79,
+    "cap": 700,
+    "xh": 460
+   }
+  },
+  {
+   "id": "manrope",
+   "family": "Manrope",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "ui",
+    "display"
+   ],
+   "moods": [
+    "modern",
+    "techy",
+    "geometric",
+    "friendly"
+   ],
+   "note": "Semi-condensed modern grotesk; popular in fintech and SaaS.",
+   "repo": "sharanda/manrope",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "800",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 2000,
+    "asc": 2132,
+    "desc": -600,
+    "gap": 0,
+    "xavg": 932.33,
+    "cap": 1440,
+    "xh": 1080
+   }
+  },
+  {
+   "id": "dm-sans",
+   "family": "DM Sans",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "friendly",
+    "geometric",
+    "modern",
+    "minimal"
+   ],
+   "note": "Low-contrast geometric sans with opsz; friendly product UI.",
+   "repo": "googlefonts/dm-fonts",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "opsz": {
+     "default": "14",
+     "min": "9",
+     "max": "40",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "1000",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 992,
+    "desc": -310,
+    "gap": 0,
+    "xavg": 473.0,
+    "cap": 700,
+    "xh": 504
+   }
+  },
+  {
+   "id": "dm-serif-display",
+   "family": "DM Serif Display",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "display",
+    "editorial"
+   ],
+   "moods": [
+    "elegant",
+    "editorial",
+    "luxury"
+   ],
+   "note": "High-contrast display serif; elegant headlines over DM Sans.",
+   "repo": "googlefonts/dm-fonts",
+   "metrics": {
+    "upm": 1000,
+    "asc": 1036,
+    "desc": -335,
+    "gap": 0,
+    "xavg": 451.54,
+    "cap": 660,
+    "xh": 481
+   }
+  },
+  {
+   "id": "dm-mono",
+   "family": "DM Mono",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    300,
+    400,
+    500
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "monospace",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "mono"
+   ],
+   "moods": [
+    "friendly",
+    "minimal",
+    "techy"
+   ],
+   "note": "Soft mono matching DM Sans.",
+   "repo": "googlefonts/dm-fonts",
+   "metrics": {
+    "upm": 1000,
+    "asc": 992,
+    "desc": -310,
+    "gap": 0,
+    "xavg": 600.0,
+    "cap": 700,
+    "xh": 496
+   }
+  },
+  {
+   "id": "plus-jakarta-sans",
+   "family": "Plus Jakarta Sans",
+   "subsets": [
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-10",
+   "roles": [
+    "ui",
+    "display"
+   ],
+   "moods": [
+    "modern",
+    "friendly",
+    "geometric",
+    "corporate"
+   ],
+   "note": "Polished modern geometric; very common in SaaS/startup sites.",
+   "repo": "tokotype/PlusJakartaSans",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "800",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1038,
+    "desc": -222,
+    "gap": 0,
+    "xavg": 474.08,
+    "cap": 745,
+    "xh": 536
+   }
+  },
+  {
+   "id": "outfit",
+   "family": "Outfit",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "display",
+    "ui"
+   ],
+   "moods": [
+    "geometric",
+    "friendly",
+    "modern",
+    "rounded"
+   ],
+   "note": "Clean geometric with round shapes; great for consumer apps and branding.",
+   "repo": "Outfitio/Outfit-Fonts",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1000,
+    "desc": -260,
+    "gap": 0,
+    "xavg": 447.73,
+    "cap": 694,
+    "xh": 475
+   }
+  },
+  {
+   "id": "sora",
+   "family": "Sora",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-08",
+   "roles": [
+    "display",
+    "ui"
+   ],
+   "moods": [
+    "techy",
+    "geometric",
+    "modern"
+   ],
+   "note": "Wide geometric sans built for tech; crypto/fintech look.",
+   "repo": "sora-xor/sora-font",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "800",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 970,
+    "desc": -290,
+    "gap": 0,
+    "xavg": 512.07,
+    "cap": 730,
+    "xh": 534
+   }
+  },
+  {
+   "id": "lexend",
+   "family": "Lexend",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-08",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "accessible",
+    "friendly",
+    "rounded"
+   ],
+   "note": "Designed to reduce visual stress and improve reading speed; good for education and accessibility-first products.",
+   "repo": "googlefonts/lexend",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1000,
+    "desc": -250,
+    "gap": 0,
+    "xavg": 495.41,
+    "cap": 700,
+    "xh": 525
+   }
+  },
+  {
+   "id": "atkinson-hyperlegible-next",
+   "family": "Atkinson Hyperlegible Next",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "accessible",
+    "humanist",
+    "trustworthy"
+   ],
+   "note": "Braille Institute's hyperlegible face; best when low-vision legibility matters.",
+   "repo": "googlefonts/atkinson-hyperlegible-next",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "800",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 984,
+    "desc": -316,
+    "gap": 0,
+    "xavg": 446.92,
+    "cap": 668,
+    "xh": 496
+   }
+  },
+  {
+   "id": "poppins",
+   "family": "Poppins",
+   "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "display",
+    "ui"
+   ],
+   "moods": [
+    "geometric",
+    "friendly",
+    "playful"
+   ],
+   "note": "Ubiquitous geometric. Fine for headings; overused, and heavy for body text.",
+   "repo": "itfoundry/Poppins",
+   "metrics": {
+    "upm": 1000,
+    "asc": 1050,
+    "desc": -350,
+    "gap": 100,
+    "xavg": 510.1,
+    "cap": 698,
+    "xh": 548
+   }
+  },
+  {
+   "id": "montserrat",
+   "family": "Montserrat",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "display"
+   ],
+   "moods": [
+    "geometric",
+    "bold",
+    "classic"
+   ],
+   "note": "Urban geometric; strong uppercase headings. Very common.",
+   "repo": "JulietaUla/Montserrat",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 968,
+    "desc": -251,
+    "gap": 0,
+    "xavg": 511.89,
+    "cap": 700,
+    "xh": 525
+   }
+  },
+  {
+   "id": "figtree",
+   "family": "Figtree",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "friendly",
+    "modern",
+    "geometric",
+    "minimal"
+   ],
+   "note": "Clean friendly geometric; a fresher Poppins alternative for body.",
+   "repo": "erikdkennedy/figtree",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "300",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 950,
+    "desc": -250,
+    "gap": 0,
+    "xavg": 453.85,
+    "cap": 700,
+    "xh": 500
+   }
+  },
+  {
+   "id": "onest",
+   "family": "Onest",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2026-08-25",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "neutral",
+    "modern",
+    "friendly"
+   ],
+   "note": "Neutral grotesk with great Cyrillic; calm product UI.",
+   "repo": "simpals/onest",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 970,
+    "desc": -305,
+    "gap": 0,
+    "xavg": 474.78,
+    "cap": 707,
+    "xh": 527
+   }
+  },
+  {
+   "id": "instrument-sans",
+   "family": "Instrument Sans",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "modern",
+    "minimal",
+    "grotesque"
+   ],
+   "note": "Sharp contemporary grotesque; precise, design-studio feel.",
+   "repo": "Instrument/instrument-sans",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wdth": {
+     "default": "100",
+     "min": "75",
+     "max": "100",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "400",
+     "max": "700",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 970,
+    "desc": -250,
+    "gap": 0,
+    "xavg": 461.54,
+    "cap": 720,
+    "xh": 510
+   }
+  },
+  {
+   "id": "instrument-serif",
+   "family": "Instrument Serif",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "display",
+    "editorial"
+   ],
+   "moods": [
+    "elegant",
+    "editorial",
+    "modern"
+   ],
+   "note": "Condensed display serif; the trendy 'editorial landing page' headline.",
+   "repo": "Instrument/instrument-serif",
+   "metrics": {
+    "upm": 1000,
+    "asc": 990,
+    "desc": -310,
+    "gap": 0,
+    "xavg": 342.95,
+    "cap": 720,
+    "xh": 510
+   }
+  },
+  {
+   "id": "bricolage-grotesque",
+   "family": "Bricolage Grotesque",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "display"
+   ],
+   "moods": [
+    "expressive",
+    "playful",
+    "grotesque",
+    "bold"
+   ],
+   "note": "Quirky variable grotesque with opsz and width; personality-heavy headlines.",
+   "repo": "ateliertriay/bricolage",
+   "axes": {
+    "opsz": {
+     "default": "14",
+     "min": "12",
+     "max": "96",
+     "step": "0.1"
+    },
+    "wdth": {
+     "default": "100",
+     "min": "75",
+     "max": "100",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "800",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 930,
+    "desc": -270,
+    "gap": 0,
+    "xavg": 478.5,
+    "cap": 660,
+    "xh": 517
+   }
+  },
+  {
+   "id": "schibsted-grotesk",
+   "family": "Schibsted Grotesk",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "editorial",
+    "neutral",
+    "grotesque"
+   ],
+   "note": "News-media grotesk; confident and readable.",
+   "repo": "schibsted/schibsted-grotesk",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "400",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 2048,
+    "asc": 2000,
+    "desc": -528,
+    "gap": 0,
+    "xavg": 963.42,
+    "cap": 1440,
+    "xh": 1080
+   }
+  },
+  {
+   "id": "hanken-grotesk",
+   "family": "Hanken Grotesk",
+   "subsets": [
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-02",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "neutral",
+    "minimal",
+    "grotesque"
+   ],
+   "note": "Clean minimal grotesk; a quieter Inter alternative.",
+   "repo": "marcologous/hanken-grotesk",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1000,
+    "desc": -303,
+    "gap": 0,
+    "xavg": 454.65,
+    "cap": 697,
+    "xh": 493
+   }
+  },
+  {
+   "id": "archivo",
+   "family": "Archivo",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-08",
+   "roles": [
+    "ui",
+    "display"
+   ],
+   "moods": [
+    "grotesque",
+    "bold",
+    "condensed",
+    "techy"
+   ],
+   "note": "Grotesque with width axis; great for data-heavy and sporty brands.",
+   "repo": "Omnibus-Type/Archivo",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wdth": {
+     "default": "100",
+     "min": "62",
+     "max": "125",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 878,
+    "desc": -210,
+    "gap": 0,
+    "xavg": 440.86,
+    "cap": 686,
+    "xh": 526
+   }
+  },
+  {
+   "id": "syne",
+   "family": "Syne",
+   "subsets": [
+    "greek",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "display"
+   ],
+   "moods": [
+    "expressive",
+    "bold",
+    "playful"
+   ],
+   "note": "Art-gallery display face; extreme at heavy weights.",
+   "repo": "bonjour-monde/syne-typeface",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "400",
+     "max": "800",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 925,
+    "desc": -275,
+    "gap": 0,
+    "xavg": 444.95,
+    "cap": 650,
+    "xh": 500
+   }
+  },
+  {
+   "id": "unbounded",
+   "family": "Unbounded",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "display"
+   ],
+   "moods": [
+    "expressive",
+    "bold",
+    "geometric",
+    "techy"
+   ],
+   "note": "Wide rounded display; bold web3/gaming headlines.",
+   "repo": "googlefonts/unbounded",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 995,
+    "desc": -245,
+    "gap": 0,
+    "xavg": 609.8,
+    "cap": 750,
+    "xh": 566
+   }
+  },
+  {
+   "id": "playfair-display",
+   "family": "Playfair Display",
+   "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "display",
+    "editorial"
+   ],
+   "moods": [
+    "elegant",
+    "luxury",
+    "classic",
+    "editorial"
+   ],
+   "note": "High-contrast Didone-ish display; classic luxury/editorial headline.",
+   "repo": "clauseggers/Playfair",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "400",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1082,
+    "desc": -251,
+    "gap": 0,
+    "xavg": 456.39,
+    "cap": 708,
+    "xh": 514
+   }
+  },
+  {
+   "id": "cormorant-garamond",
+   "family": "Cormorant Garamond",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-08",
+   "roles": [
+    "display",
+    "editorial"
+   ],
+   "moods": [
+    "elegant",
+    "luxury",
+    "classic"
+   ],
+   "note": "Delicate Garamond display; weddings, jewellery, fashion. Too thin for small body.",
+   "repo": "CatharsisFonts/Cormorant",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "300",
+     "max": "700",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 924,
+    "desc": -287,
+    "gap": 0,
+    "xavg": 394.41,
+    "cap": 625,
+    "xh": 386
+   }
+  },
+  {
+   "id": "eb-garamond",
+   "family": "EB Garamond",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2026-06-30",
+   "roles": [
+    "text",
+    "editorial"
+   ],
+   "moods": [
+    "classic",
+    "elegant",
+    "editorial",
+    "warm"
+   ],
+   "note": "Faithful Garamond revival; books and literary long-form.",
+   "repo": "octaviopardo/EBGaramond12",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "400",
+     "max": "800",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1007,
+    "desc": -298,
+    "gap": 0,
+    "xavg": 383.18,
+    "cap": 650,
+    "xh": 400
+   }
+  },
+  {
+   "id": "libre-baskerville",
+   "family": "Libre Baskerville",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-11-20",
+   "roles": [
+    "text",
+    "editorial"
+   ],
+   "moods": [
+    "classic",
+    "trustworthy",
+    "editorial"
+   ],
+   "note": "Baskerville optimised for screen body text.",
+   "repo": "impallari/Libre-Baskerville",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "400",
+     "max": "700",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 970,
+    "desc": -270,
+    "gap": 0,
+    "xavg": 519.97,
+    "cap": 770,
+    "xh": 530
+   }
+  },
+  {
+   "id": "lora",
+   "family": "Lora",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols",
+    "vietnamese"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "text",
+    "editorial"
+   ],
+   "moods": [
+    "warm",
+    "classic",
+    "editorial"
+   ],
+   "note": "Brushed contemporary serif; warm long-form reading.",
+   "repo": "cyrealtype/Lora-Cyrillic",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "400",
+     "max": "700",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1006,
+    "desc": -274,
+    "gap": 0,
+    "xavg": 473.1,
+    "cap": 700,
+    "xh": 500
+   }
+  },
+  {
+   "id": "merriweather",
+   "family": "Merriweather",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-02",
+   "roles": [
+    "text"
+   ],
+   "moods": [
+    "classic",
+    "trustworthy",
+    "warm"
+   ],
+   "note": "Sturdy screen serif; readable at small sizes.",
+   "repo": "SorkinType/Merriweather",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "opsz": {
+     "default": "18",
+     "min": "18",
+     "max": "144",
+     "step": "0.1"
+    },
+    "wdth": {
+     "default": "100",
+     "min": "87",
+     "max": "112",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "300",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 2000,
+    "asc": 1968,
+    "desc": -546,
+    "gap": 0,
+    "xavg": 977.25,
+    "cap": 1486,
+    "xh": 1111
+   }
+  },
+  {
+   "id": "newsreader",
+   "family": "Newsreader",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-08",
+   "roles": [
+    "text",
+    "editorial"
+   ],
+   "moods": [
+    "editorial",
+    "classic",
+    "elegant"
+   ],
+   "note": "Production Type's news serif with opsz; premium reading experience.",
+   "repo": "productiontype/Newsreader",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "opsz": {
+     "default": "16",
+     "min": "6",
+     "max": "72",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "800",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 2000,
+    "asc": 1470,
+    "desc": -530,
+    "gap": 0,
+    "xavg": 856.67,
+    "cap": 1340,
+    "xh": 852
+   }
+  },
+  {
+   "id": "crimson-pro",
+   "family": "Crimson Pro",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "text",
+    "editorial"
+   ],
+   "moods": [
+    "classic",
+    "editorial",
+    "elegant"
+   ],
+   "note": "Book-style serif; elegant long reads.",
+   "repo": "Fonthausen/CrimsonPro",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1024,
+    "asc": 918,
+    "desc": -220,
+    "gap": 0,
+    "xavg": 414.1,
+    "cap": 587,
+    "xh": 430
+   }
+  },
+  {
+   "id": "literata",
+   "family": "Literata",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "text"
+   ],
+   "moods": [
+    "classic",
+    "warm",
+    "accessible"
+   ],
+   "note": "Google Play Books' reading face; built for long-form on screen.",
+   "repo": "googlefonts/literata",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "opsz": {
+     "default": "14",
+     "min": "7",
+     "max": "72",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1177,
+    "desc": -308,
+    "gap": 0,
+    "xavg": 483.82,
+    "cap": 701,
+    "xh": 507
+   }
+  },
+  {
+   "id": "spectral",
+   "family": "Spectral",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "text",
+    "editorial"
+   ],
+   "moods": [
+    "elegant",
+    "editorial",
+    "minimal"
+   ],
+   "note": "Screen-first serif by Production Type; refined and light.",
+   "repo": "productiontype/Spectral",
+   "metrics": {
+    "upm": 1000,
+    "asc": 1059,
+    "desc": -463,
+    "gap": 0,
+    "xavg": 447.57,
+    "cap": 660,
+    "xh": 450
+   }
+  },
+  {
+   "id": "bodoni-moda",
+   "family": "Bodoni Moda",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "display"
+   ],
+   "moods": [
+    "luxury",
+    "elegant",
+    "classic"
+   ],
+   "note": "Didone with opsz; fashion magazine headlines.",
+   "repo": "indestructible-type/Bodoni",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "opsz": {
+     "default": "11",
+     "min": "6",
+     "max": "96",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "400",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 2000,
+    "asc": 2250,
+    "desc": -800,
+    "gap": 0,
+    "xavg": 935.5,
+    "cap": 1500,
+    "xh": 920
+   }
+  },
+  {
+   "id": "gloock",
+   "family": "Gloock",
+   "subsets": [
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-08",
+   "roles": [
+    "display"
+   ],
+   "moods": [
+    "elegant",
+    "bold",
+    "editorial"
+   ],
+   "note": "High-contrast heavy serif; dramatic posters and hero lines.",
+   "repo": null,
+   "metrics": {
+    "upm": 1000,
+    "asc": 975,
+    "desc": -225,
+    "gap": 0,
+    "xavg": 472.39,
+    "cap": 750,
+    "xh": 508
+   }
+  },
+  {
+   "id": "young-serif",
+   "family": "Young Serif",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-05-30",
+   "roles": [
+    "display"
+   ],
+   "moods": [
+    "warm",
+    "retro",
+    "friendly"
+   ],
+   "note": "Heavy old-style serif; cosy, retro, food and craft brands.",
+   "repo": null,
+   "metrics": {
+    "upm": 1000,
+    "asc": 1046,
+    "desc": -366,
+    "gap": 0,
+    "xavg": 511.82,
+    "cap": 750,
+    "xh": 500
+   }
+  },
+  {
+   "id": "jetbrains-mono",
+   "family": "JetBrains Mono",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "monospace",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "mono"
+   ],
+   "moods": [
+    "techy",
+    "modern",
+    "neutral"
+   ],
+   "note": "Tall x-height coding mono with ligatures; best all-round code font.",
+   "repo": "JetBrains/JetBrainsMono",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "800",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1020,
+    "desc": -300,
+    "gap": 0,
+    "xavg": 600.0,
+    "cap": 730,
+    "xh": 550
+   }
+  },
+  {
+   "id": "fira-code",
+   "family": "Fira Code",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "symbols2"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "monospace",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "mono"
+   ],
+   "moods": [
+    "techy",
+    "modern"
+   ],
+   "note": "The original ligature coding font (82k stars).",
+   "repo": "tonsky/FiraCode",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "300",
+     "max": "700",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 2000,
+    "asc": 1980,
+    "desc": -644,
+    "gap": 0,
+    "xavg": 1200.0,
+    "cap": 1377,
+    "xh": 1053
+   }
+  },
+  {
+   "id": "fira-sans",
+   "family": "Fira Sans",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "humanist",
+    "friendly",
+    "techy"
+   ],
+   "note": "Mozilla's humanist sans; very readable, large script support.",
+   "repo": "mozilla/Fira",
+   "metrics": {
+    "upm": 1000,
+    "asc": 935,
+    "desc": -265,
+    "gap": 0,
+    "xavg": 464.79,
+    "cap": 689,
+    "xh": 527
+   }
+  },
+  {
+   "id": "cascadia-code",
+   "family": "Cascadia Code",
+   "subsets": [
+    "arabic",
+    "braille",
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "hebrew",
+    "latin",
+    "latin-ext",
+    "symbols2",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "monospace",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "mono"
+   ],
+   "moods": [
+    "techy",
+    "modern",
+    "friendly"
+   ],
+   "note": "Microsoft's terminal font with ligatures and cursive italic; includes Arabic.",
+   "repo": "microsoft/cascadia-code",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "700",
+     "step": "1"
+    }
+   },
+   "urdu_ok": true,
+   "metrics": {
+    "upm": 2048,
+    "asc": 1900,
+    "desc": -480,
+    "gap": 0,
+    "xavg": 1200.0,
+    "cap": 1420,
+    "xh": 1060
+   }
+  },
+  {
+   "id": "monaspace-neon",
+   "family": "Monaspace Neon",
+   "subsets": [
+    "latin"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "normal",
+    "italic"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "monospace",
+   "license": "OFL-1.1",
+   "type": "other",
+   "lastModified": "2024-07-04",
+   "roles": [
+    "mono"
+   ],
+   "moods": [
+    "techy",
+    "modern"
+   ],
+   "note": "GitHub Next's mono superfamily with texture healing. Not on Google Fonts, use Fontsource or self-host.",
+   "repo": "githubnext/monaspace",
+   "metrics": {
+    "upm": 2000,
+    "asc": 1565,
+    "desc": -435,
+    "gap": 400,
+    "xavg": 1240.0,
+    "cap": 1460,
+    "xh": 1027
+   }
+  },
+  {
+   "id": "intel-one-mono",
+   "family": "Intel One Mono",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "symbols2",
+    "vietnamese"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "monospace",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-07-16",
+   "roles": [
+    "mono"
+   ],
+   "moods": [
+    "accessible",
+    "techy"
+   ],
+   "note": "Intel's mono designed for low-vision developers.",
+   "repo": "intel/intel-one-mono",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "300",
+     "max": "700",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1090,
+    "desc": -290,
+    "gap": 0,
+    "xavg": 614.0,
+    "cap": 655,
+    "xh": 465
+   }
+  },
+  {
+   "id": "iosevka",
+   "family": "Iosevka",
+   "subsets": [
+    "latin"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal",
+    "italic"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "monospace",
+   "license": "OFL-1.1",
+   "type": "other",
+   "lastModified": "2023-05-16",
+   "roles": [
+    "mono",
+    "condensed"
+   ],
+   "moods": [
+    "techy",
+    "condensed",
+    "minimal"
+   ],
+   "note": "Narrow, endlessly configurable coding font. Not on Google Fonts.",
+   "repo": "be5invis/Iosevka",
+   "metrics": {
+    "upm": 1000,
+    "asc": 965,
+    "desc": -285,
+    "gap": 0,
+    "xavg": 500.0,
+    "cap": 735,
+    "xh": 520
+   }
+  },
+  {
+   "id": "martian-mono",
+   "family": "Martian Mono",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "monospace",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "mono",
+    "display"
+   ],
+   "moods": [
+    "techy",
+    "expressive",
+    "modern"
+   ],
+   "note": "Wide variable mono by Evil Martians; striking for UI accents.",
+   "repo": "evilmartians/mono",
+   "axes": {
+    "wdth": {
+     "default": "100",
+     "min": "75",
+     "max": "112.5",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "800",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1000,
+    "desc": -200,
+    "gap": 0,
+    "xavg": 700.0,
+    "cap": 800,
+    "xh": 600
+   }
+  },
+  {
+   "id": "commit-mono",
+   "family": "Commit Mono",
+   "subsets": [
+    "latin"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "normal",
+    "italic"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "monospace",
+   "license": "OFL-1.1",
+   "type": "other",
+   "lastModified": "2024-07-15",
+   "roles": [
+    "mono"
+   ],
+   "moods": [
+    "neutral",
+    "minimal",
+    "techy"
+   ],
+   "note": "Neutral, anonymous coding mono with smart kerning. Not on Google Fonts.",
+   "repo": "eigilnikolajsen/commit-mono",
+   "metrics": {
+    "upm": 1000,
+    "asc": 900,
+    "desc": -200,
+    "gap": 0,
+    "xavg": 600.0,
+    "cap": 700,
+    "xh": 540
+   }
+  },
+  {
+   "id": "maple-mono",
+   "family": "Maple Mono",
+   "subsets": [
+    "latin"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "normal",
+    "italic"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "monospace",
+   "license": "OFL-1.1",
+   "type": "other",
+   "lastModified": "2025-10-18",
+   "roles": [
+    "mono"
+   ],
+   "moods": [
+    "friendly",
+    "rounded",
+    "techy"
+   ],
+   "note": "Rounded mono with ligatures (29k stars). Not on Google Fonts.",
+   "repo": "subframe7536/maple-font",
+   "metrics": {
+    "upm": 1000,
+    "asc": 1020,
+    "desc": -300,
+    "gap": 0,
+    "xavg": 600.0,
+    "cap": 730,
+    "xh": 550
+   }
+  },
+  {
+   "id": "victor-mono",
+   "family": "Victor Mono",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "monospace",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "mono"
+   ],
+   "moods": [
+    "expressive",
+    "techy",
+    "playful"
+   ],
+   "note": "Mono with cursive italics; fun for editor themes and code blocks.",
+   "repo": "rubjo/victor-mono",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "700",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1100,
+    "desc": -250,
+    "gap": 0,
+    "xavg": 600.0,
+    "cap": 800,
+    "xh": 618
+   }
+  },
+  {
+   "id": "roboto-mono",
+   "family": "Roboto Mono",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "monospace",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2026-05-05",
+   "roles": [
+    "mono"
+   ],
+   "moods": [
+    "neutral",
+    "techy"
+   ],
+   "note": "Android's mono; neutral partner for Roboto.",
+   "repo": "googlefonts/RobotoMono",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "700",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 2048,
+    "asc": 2146,
+    "desc": -555,
+    "gap": 0,
+    "xavg": 1229.0,
+    "cap": 1456,
+    "xh": 1082
+   }
+  },
+  {
+   "id": "vazirmatn",
+   "family": "Vazirmatn",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-10",
+   "roles": [
+    "arabic",
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "modern",
+    "neutral",
+    "friendly"
+   ],
+   "note": "Best modern Arabic-script UI font. Variable 100-900, built-in Latin (Roboto-based). Works for Arabic, Persian and basic Urdu Naskh UI.",
+   "repo": "rastikerdar/vazirmatn",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "urdu_ok": true,
+   "metrics": {
+    "upm": 2048,
+    "asc": 2100,
+    "desc": -1100,
+    "gap": 0,
+    "xavg": 926.81,
+    "cap": 1638,
+    "xh": 1082
+   }
+  },
+  {
+   "id": "noto-sans-arabic",
+   "family": "Noto Sans Arabic",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-17",
+   "roles": [
+    "arabic",
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "neutral",
+    "trustworthy"
+   ],
+   "note": "Google's universal Arabic sans; widest language coverage incl. Urdu letters.",
+   "repo": "notofonts/arabic",
+   "axes": {
+    "wdth": {
+     "default": "100",
+     "min": "62.5",
+     "max": "100",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "urdu_ok": true,
+   "metrics": {
+    "upm": 1000,
+    "asc": 1374,
+    "desc": -738,
+    "gap": 0,
+    "xavg": 478.98,
+    "cap": 714,
+    "xh": 536
+   }
+  },
+  {
+   "id": "noto-naskh-arabic",
+   "family": "Noto Naskh Arabic",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2026-01-28",
+   "roles": [
+    "arabic",
+    "text"
+   ],
+   "moods": [
+    "classic",
+    "trustworthy"
+   ],
+   "note": "Traditional Naskh for readable body text, incl. Urdu-specific letters.",
+   "repo": "notofonts/arabic",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "400",
+     "max": "700",
+     "step": "1"
+    }
+   },
+   "urdu_ok": true,
+   "metrics": {
+    "upm": 1000,
+    "asc": 1069,
+    "desc": -634,
+    "gap": 0,
+    "xavg": 480.41,
+    "cap": null,
+    "xh": null
+   }
+  },
+  {
+   "id": "noto-kufi-arabic",
+   "family": "Noto Kufi Arabic",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "arabic",
+    "display",
+    "ui"
+   ],
+   "moods": [
+    "modern",
+    "geometric",
+    "bold"
+   ],
+   "note": "Geometric Kufi; headlines and modern brand marks.",
+   "repo": "notofonts/arabic",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "urdu_ok": true,
+   "metrics": {
+    "upm": 1000,
+    "asc": 1282,
+    "desc": -615,
+    "gap": 0,
+    "xavg": 491.17,
+    "cap": 714,
+    "xh": 536
+   }
+  },
+  {
+   "id": "noto-nastaliq-urdu",
+   "family": "Noto Nastaliq Urdu",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-02",
+   "roles": [
+    "urdu",
+    "arabic",
+    "text"
+   ],
+   "moods": [
+    "classic",
+    "elegant",
+    "warm"
+   ],
+   "note": "The standard Nastaliq for Urdu. Very tall: needs line-height 2+ and a large size. File is ~500KB, so subset it.",
+   "repo": "notofonts/nastaliq",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "400",
+     "max": "700",
+     "step": "1"
+    }
+   },
+   "urdu_ok": true,
+   "metrics": {
+    "upm": 1000,
+    "asc": 1904,
+    "desc": -596,
+    "gap": 0,
+    "xavg": 466.85,
+    "cap": 714,
+    "xh": 536
+   }
+  },
+  {
+   "id": "gulzar",
+   "family": "Gulzar",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "urdu",
+    "arabic",
+    "display"
+   ],
+   "moods": [
+    "elegant",
+    "classic"
+   ],
+   "note": "Nastaliq display face for Urdu headings; more calligraphic than Noto.",
+   "repo": "googlefonts/gulzar",
+   "urdu_ok": true,
+   "metrics": {
+    "upm": 1000,
+    "asc": 1500,
+    "desc": -1200,
+    "gap": 0,
+    "xavg": 405.69,
+    "cap": 700,
+    "xh": 500
+   }
+  },
+  {
+   "id": "amiri",
+   "family": "Amiri",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-08-26",
+   "roles": [
+    "arabic",
+    "text",
+    "editorial"
+   ],
+   "moods": [
+    "classic",
+    "elegant",
+    "editorial"
+   ],
+   "note": "Classical Naskh (Bulaq press style); formal and Quranic-quality text.",
+   "repo": "aliftype/amiri",
+   "urdu_ok": true,
+   "metrics": {
+    "upm": 1000,
+    "asc": 1124,
+    "desc": -634,
+    "gap": 0,
+    "xavg": 405.07,
+    "cap": 646,
+    "xh": 433
+   }
+  },
+  {
+   "id": "aref-ruqaa",
+   "family": "Aref Ruqaa",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "arabic",
+    "display"
+   ],
+   "moods": [
+    "classic",
+    "elegant",
+    "handwritten"
+   ],
+   "note": "Ruqaa calligraphic display; heritage, invitations, Ramadan campaigns.",
+   "repo": "aliftype/aref-ruqaa",
+   "urdu_ok": true,
+   "metrics": {
+    "upm": 1000,
+    "asc": 1221,
+    "desc": -244,
+    "gap": 98,
+    "xavg": 440.03,
+    "cap": 683,
+    "xh": 462
+   }
+  },
+  {
+   "id": "cairo",
+   "family": "Cairo",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "arabic",
+    "ui",
+    "display"
+   ],
+   "moods": [
+    "modern",
+    "friendly",
+    "corporate"
+   ],
+   "note": "Contemporary Arabic + Latin; very common on Gulf brand sites.",
+   "repo": "Gue3bara/Cairo",
+   "axes": {
+    "slnt": {
+     "default": "0",
+     "min": "-11",
+     "max": "11",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "1000",
+     "step": "1"
+    }
+   },
+   "urdu_ok": true,
+   "metrics": {
+    "upm": 1000,
+    "asc": 1303,
+    "desc": -571,
+    "gap": 0,
+    "xavg": 426.78,
+    "cap": 700,
+    "xh": 500
+   }
+  },
+  {
+   "id": "tajawal",
+   "family": "Tajawal",
+   "subsets": [
+    "arabic",
+    "latin"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-08",
+   "roles": [
+    "arabic",
+    "ui"
+   ],
+   "moods": [
+    "modern",
+    "minimal",
+    "corporate"
+   ],
+   "note": "Low-contrast geometric Arabic; clean Saudi/Gulf product UI. No Latin glyphs (pair with a Latin face) and no Urdu letters.",
+   "repo": "googlefonts/tajawal",
+   "urdu_ok": false,
+   "metrics": {
+    "upm": 1000,
+    "asc": 643,
+    "desc": -357,
+    "gap": 200,
+    "xavg": 427.33,
+    "cap": 633,
+    "xh": 454
+   }
+  },
+  {
+   "id": "almarai",
+   "family": "Almarai",
+   "subsets": [
+    "arabic",
+    "latin"
+   ],
+   "weights": [
+    300,
+    400,
+    700,
+    800
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-02",
+   "roles": [
+    "arabic",
+    "ui"
+   ],
+   "moods": [
+    "modern",
+    "friendly",
+    "minimal"
+   ],
+   "note": "Simple modern Arabic sans used widely in KSA apps. Arabic only.",
+   "repo": null,
+   "urdu_ok": true,
+   "metrics": {
+    "upm": 1000,
+    "asc": 905,
+    "desc": -211,
+    "gap": 0,
+    "xavg": 427.23,
+    "cap": 716,
+    "xh": 514
+   }
+  },
+  {
+   "id": "readex-pro",
+   "family": "Readex Pro",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-10",
+   "roles": [
+    "arabic",
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "accessible",
+    "modern",
+    "friendly"
+   ],
+   "note": "Lexend's Arabic extension; readability-focused, variable. Arabic only: lacks Urdu letters.",
+   "repo": "ThomasJockin/readexpro",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "160",
+     "max": "700",
+     "step": "1"
+    },
+    "HEXP": {
+     "default": "0",
+     "min": "0",
+     "max": "100",
+     "step": "0.1"
+    }
+   },
+   "urdu_ok": false,
+   "metrics": {
+    "upm": 1000,
+    "asc": 1000,
+    "desc": -250,
+    "gap": 0,
+    "xavg": 488.54,
+    "cap": 700,
+    "xh": 525
+   }
+  },
+  {
+   "id": "alexandria",
+   "family": "Alexandria",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "arabic",
+    "display",
+    "ui"
+   ],
+   "moods": [
+    "geometric",
+    "modern",
+    "bold"
+   ],
+   "note": "Geometric Arabic+Latin, 9 weights; bold contemporary headlines.",
+   "repo": "Mohamed-Gaber/Alexandria",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "urdu_ok": true,
+   "metrics": {
+    "upm": 1000,
+    "asc": 968,
+    "desc": -251,
+    "gap": 0,
+    "xavg": 509.34,
+    "cap": 700,
+    "xh": 531
+   }
+  },
+  {
+   "id": "el-messiri",
+   "family": "El Messiri",
+   "subsets": [
+    "arabic",
+    "cyrillic",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "arabic",
+    "display"
+   ],
+   "moods": [
+    "elegant",
+    "modern"
+   ],
+   "note": "Elegant modern Arabic display with matching Latin.",
+   "repo": "Gue3bara/El-Messiri",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "400",
+     "max": "700",
+     "step": "1"
+    }
+   },
+   "urdu_ok": true,
+   "metrics": {
+    "upm": 1000,
+    "asc": 1019,
+    "desc": -544,
+    "gap": 0,
+    "xavg": 430.47,
+    "cap": 660,
+    "xh": 480
+   }
+  },
+  {
+   "id": "reem-kufi",
+   "family": "Reem Kufi",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "arabic",
+    "display"
+   ],
+   "moods": [
+    "geometric",
+    "classic",
+    "bold"
+   ],
+   "note": "Fatimid-Kufi-inspired geometric display.",
+   "repo": "aliftype/reem-kufi",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "400",
+     "max": "700",
+     "step": "1"
+    }
+   },
+   "urdu_ok": true,
+   "metrics": {
+    "upm": 1000,
+    "asc": 1100,
+    "desc": -400,
+    "gap": 0,
+    "xavg": 435.1,
+    "cap": 725,
+    "xh": 418
+   }
+  },
+  {
+   "id": "changa",
+   "family": "Changa",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-10",
+   "roles": [
+    "arabic",
+    "display"
+   ],
+   "moods": [
+    "bold",
+    "techy",
+    "condensed"
+   ],
+   "note": "Condensed Arabic+Latin display; sporty, gaming, energetic.",
+   "repo": "etunni/changa",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "800",
+     "step": "1"
+    }
+   },
+   "urdu_ok": true,
+   "metrics": {
+    "upm": 1000,
+    "asc": 1227,
+    "desc": -613,
+    "gap": 0,
+    "xavg": 451.68,
+    "cap": 625,
+    "xh": 500
+   }
+  },
+  {
+   "id": "markazi-text",
+   "family": "Markazi Text",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "arabic",
+    "text",
+    "editorial"
+   ],
+   "moods": [
+    "editorial",
+    "classic",
+    "warm"
+   ],
+   "note": "Arabic+Latin text face for news and editorial body.",
+   "repo": "BornaIz/markazitext",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "400",
+     "max": "700",
+     "step": "1"
+    }
+   },
+   "urdu_ok": true,
+   "metrics": {
+    "upm": 2048,
+    "asc": 1718,
+    "desc": -740,
+    "gap": 0,
+    "xavg": 694.48,
+    "cap": 990,
+    "xh": 746
+   }
+  },
+  {
+   "id": "rubik",
+   "family": "Rubik",
+   "subsets": [
+    "arabic",
+    "cyrillic",
+    "cyrillic-ext",
+    "hebrew",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-10",
+   "roles": [
+    "ui",
+    "display",
+    "arabic"
+   ],
+   "moods": [
+    "friendly",
+    "rounded",
+    "playful"
+   ],
+   "note": "Slightly rounded sans with Arabic and Hebrew; friendly consumer apps. Arabic set lacks Urdu letters.",
+   "repo": "googlefonts/rubik",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "300",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "urdu_ok": false,
+   "metrics": {
+    "upm": 1000,
+    "asc": 935,
+    "desc": -250,
+    "gap": 0,
+    "xavg": 474.24,
+    "cap": 700,
+    "xh": 520
+   }
+  },
+  {
+   "id": "baloo-bhaijaan-2",
+   "family": "Baloo Bhaijaan 2",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "display",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "arabic",
+    "display"
+   ],
+   "moods": [
+    "playful",
+    "rounded",
+    "friendly"
+   ],
+   "note": "Chunky rounded Arabic+Latin; kids, games, playful brands.",
+   "repo": "EkType/Baloo2",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "400",
+     "max": "800",
+     "step": "1"
+    }
+   },
+   "urdu_ok": true,
+   "metrics": {
+    "upm": 1000,
+    "asc": 1080,
+    "desc": -632,
+    "gap": 0,
+    "xavg": 435.37,
+    "cap": 602,
+    "xh": 460
+   }
+  },
+  {
+   "id": "noto-sans",
+   "family": "Noto Sans",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "devanagari",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "neutral",
+    "trustworthy"
+   ],
+   "note": "Universal fallback sans covering almost every script.",
+   "repo": "notofonts/latin-greek-cyrillic",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wdth": {
+     "default": "100",
+     "min": "62.5",
+     "max": "100",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1069,
+    "desc": -293,
+    "gap": 0,
+    "xavg": 478.98,
+    "cap": 714,
+    "xh": 536
+   }
+  },
+  {
+   "id": "noto-serif",
+   "family": "Noto Serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "math",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-06",
+   "roles": [
+    "text"
+   ],
+   "moods": [
+    "neutral",
+    "classic"
+   ],
+   "note": "Universal serif companion.",
+   "repo": "notofonts/latin-greek-cyrillic",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wdth": {
+     "default": "100",
+     "min": "62.5",
+     "max": "100",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1069,
+    "desc": -293,
+    "gap": 0,
+    "xavg": 486.36,
+    "cap": 714,
+    "xh": 536
+   }
+  },
+  {
+   "id": "noto-sans-sc",
+   "family": "Noto Sans SC",
+   "subsets": [
+    "chinese-simplified",
+    "cyrillic",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2026-10-01",
+   "roles": [
+    "cjk",
+    "ui"
+   ],
+   "moods": [
+    "neutral"
+   ],
+   "note": "Simplified Chinese sans (Source Han Sans based).",
+   "repo": "notofonts/noto-cjk",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1160,
+    "desc": -288,
+    "gap": 0,
+    "xavg": 472.94,
+    "cap": 733,
+    "xh": 543
+   }
+  },
+  {
+   "id": "noto-sans-jp",
+   "family": "Noto Sans JP",
+   "subsets": [
+    "cyrillic",
+    "japanese",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2026-10-01",
+   "roles": [
+    "cjk",
+    "ui"
+   ],
+   "moods": [
+    "neutral"
+   ],
+   "note": "Japanese sans.",
+   "repo": "notofonts/noto-cjk",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1160,
+    "desc": -288,
+    "gap": 0,
+    "xavg": 472.94,
+    "cap": 733,
+    "xh": 543
+   }
+  },
+  {
+   "id": "noto-sans-kr",
+   "family": "Noto Sans KR",
+   "subsets": [
+    "cyrillic",
+    "korean",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2026-10-01",
+   "roles": [
+    "cjk",
+    "ui"
+   ],
+   "moods": [
+    "neutral"
+   ],
+   "note": "Korean sans.",
+   "repo": "notofonts/noto-cjk",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1160,
+    "desc": -288,
+    "gap": 0,
+    "xavg": 472.94,
+    "cap": 733,
+    "xh": 543
+   }
+  },
+  {
+   "id": "pretendard",
+   "family": "Pretendard",
+   "subsets": [
+    "latin"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "other",
+   "lastModified": "2024-08-26",
+   "roles": [
+    "cjk",
+    "ui"
+   ],
+   "moods": [
+    "neutral",
+    "modern"
+   ],
+   "note": "Korean system-ui alternative (Inter + Source Han). Not on Google Fonts.",
+   "repo": "orioncactus/pretendard",
+   "metrics": {
+    "upm": 2048,
+    "asc": 1949,
+    "desc": -494,
+    "gap": 0,
+    "xavg": 928.54,
+    "cap": 1448,
+    "xh": 1086
+   }
+  },
+  {
+   "id": "roboto",
+   "family": "Roboto",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2026-02-19",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "neutral",
+    "corporate"
+   ],
+   "note": "Android's system font; neutral, safe, a bit generic.",
+   "repo": "googlefonts/roboto-3-classic",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wdth": {
+     "default": "100",
+     "min": "75",
+     "max": "100",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 2048,
+    "asc": 1900,
+    "desc": -500,
+    "gap": 0,
+    "xavg": 920.41,
+    "cap": 1456,
+    "xh": 1082
+   }
+  },
+  {
+   "id": "roboto-flex",
+   "family": "Roboto Flex",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "ui",
+    "display"
+   ],
+   "moods": [
+    "neutral",
+    "expressive",
+    "modern"
+   ],
+   "note": "Roboto with 13 variable axes (width, grade, opsz...). Great for motion/variable-font effects.",
+   "repo": "googlefonts/roboto-flex",
+   "axes": {
+    "opsz": {
+     "default": "14",
+     "min": "8",
+     "max": "144",
+     "step": "0.1"
+    },
+    "slnt": {
+     "default": "0",
+     "min": "-10",
+     "max": "0",
+     "step": "1"
+    },
+    "wdth": {
+     "default": "100",
+     "min": "25",
+     "max": "151",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "1000",
+     "step": "1"
+    },
+    "GRAD": {
+     "default": "0",
+     "min": "-200",
+     "max": "150",
+     "step": "1"
+    },
+    "XOPQ": {
+     "default": "96",
+     "min": "27",
+     "max": "175",
+     "step": "1"
+    },
+    "XTRA": {
+     "default": "468",
+     "min": "323",
+     "max": "603",
+     "step": "1"
+    },
+    "YOPQ": {
+     "default": "79",
+     "min": "25",
+     "max": "135",
+     "step": "1"
+    },
+    "YTAS": {
+     "default": "750",
+     "min": "649",
+     "max": "854",
+     "step": "1"
+    },
+    "YTDE": {
+     "default": "-203",
+     "min": "-305",
+     "max": "-98",
+     "step": "1"
+    },
+    "YTFI": {
+     "default": "738",
+     "min": "560",
+     "max": "788",
+     "step": "1"
+    },
+    "YTLC": {
+     "default": "514",
+     "min": "416",
+     "max": "570",
+     "step": "1"
+    },
+    "YTUC": {
+     "default": "712",
+     "min": "528",
+     "max": "760",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 2048,
+    "asc": 1900,
+    "desc": -500,
+    "gap": 0,
+    "xavg": 913.76,
+    "cap": 1456,
+    "xh": 1052
+   }
+  },
+  {
+   "id": "open-sans",
+   "family": "Open Sans",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "hebrew",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols",
+    "vietnamese"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "neutral",
+    "friendly",
+    "humanist"
+   ],
+   "note": "Classic humanist web font; safe but dated-feeling.",
+   "repo": "googlefonts/opensans",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wdth": {
+     "default": "100",
+     "min": "75",
+     "max": "100",
+     "step": "0.1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "300",
+     "max": "800",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 2048,
+    "asc": 2189,
+    "desc": -600,
+    "gap": 0,
+    "xavg": 970.65,
+    "cap": 1462,
+    "xh": 1096
+   }
+  },
+  {
+   "id": "lato",
+   "family": "Lato",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    300,
+    400,
+    700,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "warm",
+    "friendly",
+    "humanist"
+   ],
+   "note": "Warm semi-rounded sans; corporate-friendly.",
+   "repo": null,
+   "metrics": {
+    "upm": 2000,
+    "asc": 1974,
+    "desc": -426,
+    "gap": 0,
+    "xavg": 876.97,
+    "cap": 1433,
+    "xh": 1013
+   }
+  },
+  {
+   "id": "nunito",
+   "family": "Nunito",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "ui",
+    "display"
+   ],
+   "moods": [
+    "rounded",
+    "friendly",
+    "playful"
+   ],
+   "note": "Rounded terminals; kids, health, friendly consumer apps.",
+   "repo": "googlefonts/nunito",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "1000",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1011,
+    "desc": -353,
+    "gap": 0,
+    "xavg": 455.59,
+    "cap": 705,
+    "xh": 484
+   }
+  },
+  {
+   "id": "mulish",
+   "family": "Mulish",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-08",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "minimal",
+    "friendly",
+    "neutral"
+   ],
+   "note": "Minimal sans; clean landing pages.",
+   "repo": "googlefonts/mulish",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "1000",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1005,
+    "desc": -250,
+    "gap": 0,
+    "xavg": 468.77,
+    "cap": 705,
+    "xh": 500
+   }
+  },
+  {
+   "id": "karla",
+   "family": "Karla",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "grotesque",
+    "friendly",
+    "warm"
+   ],
+   "note": "Quirky grotesque with character at small sizes.",
+   "repo": "googlefonts/karla",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "800",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 2000,
+    "asc": 1834,
+    "desc": -504,
+    "gap": 0,
+    "xavg": 929.01,
+    "cap": 1256,
+    "xh": 956
+   }
+  },
+  {
+   "id": "urbanist",
+   "family": "Urbanist",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "display",
+    "ui"
+   ],
+   "moods": [
+    "geometric",
+    "modern",
+    "minimal"
+   ],
+   "note": "Low-contrast geometric; modern architecture/real-estate feel.",
+   "repo": "coreyhu/Urbanist",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 2000,
+    "asc": 1900,
+    "desc": -500,
+    "gap": 0,
+    "xavg": 896.28,
+    "cap": 1400,
+    "xh": 1000
+   }
+  },
+  {
+   "id": "albert-sans",
+   "family": "Albert Sans",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "geometric",
+    "minimal",
+    "neutral"
+   ],
+   "note": "Scandinavian geometric; calm minimal brands.",
+   "repo": "usted/Albert-Sans",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 950,
+    "desc": -250,
+    "gap": 0,
+    "xavg": 466.39,
+    "cap": 700,
+    "xh": 500
+   }
+  },
+  {
+   "id": "red-hat-display",
+   "family": "Red Hat Display",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-10",
+   "roles": [
+    "display"
+   ],
+   "moods": [
+    "corporate",
+    "friendly",
+    "modern"
+   ],
+   "note": "Red Hat's display face; confident corporate headlines.",
+   "repo": "RedHatOfficial/RedHatFont",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "300",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1018,
+    "desc": -305,
+    "gap": 0,
+    "xavg": 444.43,
+    "cap": 700,
+    "xh": 501
+   }
+  },
+  {
+   "id": "red-hat-text",
+   "family": "Red Hat Text",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "ui",
+    "text"
+   ],
+   "moods": [
+    "corporate",
+    "friendly"
+   ],
+   "note": "Text companion of Red Hat Display.",
+   "repo": "RedHatOfficial/RedHatFont",
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "300",
+     "max": "700",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1018,
+    "desc": -305,
+    "gap": 0,
+    "xavg": 449.02,
+    "cap": 700,
+    "xh": 488
+   }
+  },
+  {
+   "id": "rethink-sans",
+   "family": "Rethink Sans",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "ui",
+    "display"
+   ],
+   "moods": [
+    "modern",
+    "friendly",
+    "techy"
+   ],
+   "note": "Fresh variable sans; modern SaaS alternative to Inter.",
+   "repo": null,
+   "axes": {
+    "ital": {
+     "default": "0",
+     "min": "0",
+     "max": "1",
+     "step": "1"
+    },
+    "wght": {
+     "default": "400",
+     "min": "400",
+     "max": "800",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 992,
+    "desc": -310,
+    "gap": 0,
+    "xavg": 473.62,
+    "cap": 700,
+    "xh": 496
+   }
+  },
+  {
+   "id": "barlow",
+   "family": "Barlow",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "ui",
+    "display"
+   ],
+   "moods": [
+    "techy",
+    "grotesque",
+    "condensed"
+   ],
+   "note": "Slightly rounded Californian grotesk; dashboards and signage feel.",
+   "repo": "jpt/barlow",
+   "metrics": {
+    "upm": 1000,
+    "asc": 1000,
+    "desc": -200,
+    "gap": 0,
+    "xavg": 435.88,
+    "cap": 700,
+    "xh": 506
+   }
+  },
+  {
+   "id": "barlow-condensed",
+   "family": "Barlow Condensed",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-08",
+   "roles": [
+    "display"
+   ],
+   "moods": [
+    "condensed",
+    "bold",
+    "techy"
+   ],
+   "note": "Condensed Barlow for sporty, data-dense headings.",
+   "repo": "jpt/barlow",
+   "metrics": {
+    "upm": 1000,
+    "asc": 1000,
+    "desc": -200,
+    "gap": 0,
+    "xavg": 346.14,
+    "cap": 700,
+    "xh": 506
+   }
+  },
+  {
+   "id": "oswald",
+   "family": "Oswald",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "display"
+   ],
+   "moods": [
+    "condensed",
+    "bold",
+    "classic"
+   ],
+   "note": "Condensed gothic; posters, sports, news headings.",
+   "repo": "googlefonts/OswaldFont",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "200",
+     "max": "700",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 1193,
+    "desc": -289,
+    "gap": 0,
+    "xavg": 366.41,
+    "cap": 810,
+    "xh": 578
+   }
+  },
+  {
+   "id": "bebas-neue",
+   "family": "Bebas Neue",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "display"
+   ],
+   "moods": [
+    "condensed",
+    "bold",
+    "retro"
+   ],
+   "note": "All-caps condensed display; posters and hero numbers. Uppercase only.",
+   "repo": "dharmatype/Bebas-Neue",
+   "metrics": {
+    "upm": 1000,
+    "asc": 900,
+    "desc": -300,
+    "gap": 0,
+    "xavg": 347.88,
+    "cap": 700,
+    "xh": 700
+   }
+  },
+  {
+   "id": "anton",
+   "family": "Anton",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "display"
+   ],
+   "moods": [
+    "condensed",
+    "bold"
+   ],
+   "note": "Heavy condensed impact face; thumbnails and posters.",
+   "repo": "googlefonts/AntonFont",
+   "metrics": {
+    "upm": 2048,
+    "asc": 2409,
+    "desc": -674,
+    "gap": 0,
+    "xavg": 845.13,
+    "cap": 1760,
+    "xh": 1500
+   }
+  },
+  {
+   "id": "big-shoulders-display",
+   "family": "Big Shoulders Display",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "display",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2024-09-04",
+   "roles": [
+    "display"
+   ],
+   "moods": [
+    "condensed",
+    "bold",
+    "retro"
+   ],
+   "note": "Chicago-inspired condensed display; civic, sporty, industrial.",
+   "repo": "xotypeco/big_shoulders",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "100",
+     "max": "900",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 2000,
+    "asc": 1968,
+    "desc": -426,
+    "gap": 0,
+    "xavg": 607.79,
+    "cap": 1600,
+    "xh": 1200
+   }
+  },
+  {
+   "id": "archivo-black",
+   "family": "Archivo Black",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "sans-serif",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-11",
+   "roles": [
+    "display"
+   ],
+   "moods": [
+    "bold",
+    "grotesque"
+   ],
+   "note": "Heavy grotesque for punchy single-weight headlines.",
+   "repo": "Omnibus-Type/Archivo",
+   "metrics": {
+    "upm": 1000,
+    "asc": 878,
+    "desc": -210,
+    "gap": 0,
+    "xavg": 558.81,
+    "cap": 688,
+    "xh": 528
+   }
+  },
+  {
+   "id": "dela-gothic-one",
+   "family": "Dela Gothic One",
+   "subsets": [
+    "cyrillic",
+    "greek",
+    "japanese",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "display",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "display"
+   ],
+   "moods": [
+    "bold",
+    "expressive",
+    "retro"
+   ],
+   "note": "Ultra-heavy display; Japanese-poster energy.",
+   "repo": null,
+   "metrics": {
+    "upm": 1000,
+    "asc": 1160,
+    "desc": -288,
+    "gap": 0,
+    "xavg": 587.4,
+    "cap": 726,
+    "xh": 540
+   }
+  },
+  {
+   "id": "caveat",
+   "family": "Caveat",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": true,
+   "category": "handwriting",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-05",
+   "roles": [
+    "display",
+    "handwritten"
+   ],
+   "moods": [
+    "handwritten",
+    "friendly",
+    "playful"
+   ],
+   "note": "Natural handwriting; annotations, notes, casual accents.",
+   "repo": "googlefonts/caveat",
+   "axes": {
+    "wght": {
+     "default": "400",
+     "min": "400",
+     "max": "700",
+     "step": "1"
+    }
+   },
+   "metrics": {
+    "upm": 1000,
+    "asc": 960,
+    "desc": -300,
+    "gap": 0,
+    "xavg": 341.35,
+    "cap": 610,
+    "xh": 400
+   }
+  },
+  {
+   "id": "permanent-marker",
+   "family": "Permanent Marker",
+   "subsets": [
+    "latin"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "handwriting",
+   "license": "Apache-2.0",
+   "type": "google",
+   "lastModified": "2025-05-30",
+   "roles": [
+    "display",
+    "handwritten"
+   ],
+   "moods": [
+    "handwritten",
+    "playful",
+    "bold"
+   ],
+   "note": "Marker pen; very casual accents only.",
+   "repo": null,
+   "metrics": {
+    "upm": 1024,
+    "asc": 1136,
+    "desc": -325,
+    "gap": 31,
+    "xavg": 523.15,
+    "cap": 758,
+    "xh": 625
+   }
+  },
+  {
+   "id": "pacifico",
+   "family": "Pacifico",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "handwriting",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "display",
+    "handwritten"
+   ],
+   "moods": [
+    "retro",
+    "playful",
+    "warm"
+   ],
+   "note": "Surf-style script; retro logos and accents only.",
+   "repo": null,
+   "metrics": {
+    "upm": 1000,
+    "asc": 1303,
+    "desc": -453,
+    "gap": 0,
+    "xavg": 413.2,
+    "cap": 840,
+    "xh": 460
+   }
+  },
+  {
+   "id": "press-start-2p",
+   "family": "Press Start 2P",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "display",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "display"
+   ],
+   "moods": [
+    "retro",
+    "playful"
+   ],
+   "note": "8-bit arcade pixel font; games and retro accents, tiny doses.",
+   "repo": null,
+   "metrics": {
+    "upm": 1000,
+    "asc": 1000,
+    "desc": 0,
+    "gap": 0,
+    "xavg": 1000.0,
+    "cap": 1000,
+    "xh": 750
+   }
+  },
+  {
+   "id": "vt323",
+   "family": "VT323",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "latin",
+   "variable": false,
+   "category": "monospace",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2025-09-16",
+   "roles": [
+    "mono",
+    "display"
+   ],
+   "moods": [
+    "retro",
+    "techy"
+   ],
+   "note": "CRT terminal pixel font; retro tech accents.",
+   "repo": null,
+   "metrics": {
+    "upm": 1000,
+    "asc": 800,
+    "desc": -200,
+    "gap": 0,
+    "xavg": 400.0,
+    "cap": 560,
+    "xh": 400
+   }
+  },
+  {
+   "id": "noto-color-emoji",
+   "family": "Noto Color Emoji",
+   "subsets": [
+    "emoji"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "normal"
+   ],
+   "defSubset": "emoji",
+   "variable": false,
+   "category": "emoji",
+   "license": "OFL-1.1",
+   "type": "google",
+   "lastModified": "2026-09-16",
+   "roles": [
+    "emoji"
+   ],
+   "moods": [
+    "playful"
+   ],
+   "note": "Self-host consistent colour emoji across platforms.",
+   "repo": "googlefonts/noto-emoji",
+   "metrics": {
+    "upm": 1024,
+    "asc": 950,
+    "desc": -250,
+    "gap": 0,
+    "xavg": null,
+    "cap": 717,
+    "xh": 512
+   }
+  }
+ ]
+}
