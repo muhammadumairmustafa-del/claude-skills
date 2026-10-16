@@ -5,7 +5,7 @@ set -euo pipefail
 cd "$(dirname "$0")"
 for s in studio theme fonts logo-studio; do
   rsync -a --delete --exclude '.venv' --exclude '__pycache__' --exclude 'history.json' --exclude 'history.jsonl' \
-    --exclude '*.pyc' --exclude '.DS_Store' "$HOME/.claude/skills/$s/" "skills/$s/"
+    --exclude '*.pyc' --exclude '.DS_Store' "$HOME/.claude/skills/$s/" ".claude/skills/$s/"
 done
 git add -A
 git diff --cached --quiet && { echo "nothing changed"; exit 0; }

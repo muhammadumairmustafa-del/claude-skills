@@ -18,7 +18,7 @@ else
 fi
 
 mkdir -p "$DEST"
-for skill in "$TMP"/repo/skills/*/; do
+for skill in "$TMP"/repo/.claude/skills/*/; do
   name="$(basename "$skill")"
   keep=""
   for h in "$DEST/$name/data/history.json" "$DEST/$name/data/history.jsonl"; do
